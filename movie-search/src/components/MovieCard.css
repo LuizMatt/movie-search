@@ -1,0 +1,35 @@
+.card {
+  width: 100%;
+  max-width: 340px;
+  background-color: #1e1e2f;
+  color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.poster {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem;
+  font-weight: bold;
+}
+
+.year {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+}

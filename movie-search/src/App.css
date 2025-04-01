@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f1b;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #00e1ff;
+}
+
+.search-input {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 2rem;
+  display: block;
+  background-color: #1e1e2f;
+  color: #fff;
+  outline: none;
+  box-shadow: 0 0 0 2px transparent;
+  transition: 0.3s;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 2px #00e1ff;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
